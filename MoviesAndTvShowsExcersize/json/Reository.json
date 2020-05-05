@@ -1,0 +1,76 @@
+{
+  "repository": [
+
+    {
+      "Id": 1,
+      "Seasson": 0,
+      "Title": "The Matrix",
+      "ImageUrl": "../../Images/Matrix.jpg",
+      "Views": 150000,
+      "Description": "Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government. Morpheus awakens Neo to the real world, a ravaged wasteland where most of humanity have been captured by a race of machines that live off of the humans' body heat and electrochemical energy and who imprison their minds within an artificial reality known as the Matrix. As a rebel against the machines, Neo must return to the Matrix and confront the agents: super-powerful computer programs devoted to snuffing out Neo and the entire human rebellion."
+    },
+
+    {
+      "Id": 2,
+      "Seasson": 0,
+      "Title": "The Matrix Reloaded",
+      "ImageUrl": "../../Images/MatrixReloaded.jpg",
+      "Views": 1250000,
+      "Description": "Six months after the events depicted in The Matrix, Neo has proved to be a good omen for the free humans, as more and more humans are being freed from the matrix and brought to Zion, the one and only stronghold of the Resistance. Neo himself has discovered his superpowers including super speed, ability to see the codes of the things inside the matrix, and a certain degree of precognition. But a nasty piece of news hits the human resistance: 250,000 machine sentinels are digging to Zion and would reach them in 72 hours. As Zion prepares for the ultimate war, Neo, Morpheus and Trinity are advised by the Oracle to find the Keymaker who would help them reach the Source. Meanwhile Neo's recurrent dreams depicting Trinity's death have got him worried and as if it was not enough, Agent Smith has somehow escaped deletion, has become more powerful than before and has chosen Neo as his next target."
+    },
+
+    {
+      "Id": 3,
+      "Seasson": 0,
+      "Title": "The Matrix Revolution",
+      "ImageUrl": "../../Images/MatrixRevolution.png",
+      "Views": 1000000,
+      "Description": "Neo discovers that somehow he is able to use his powers in the real world too and that his mind can be freed from his body, as a result of which he finds himself trapped on a train station between the Matrix and the Real World. Meanwhile, Zion is preparing for the oncoming war with the machines with very little chances of survival. Neo's associates set out to free him from The Merovingian since it's believed that he is the One who will end the war between humans and the machines. What they do not know is that there is a threat from a third party, someone who has plans to destroy both the worlds."
+    },
+
+    {
+      "Id": 4,
+      "Seasson": 1,
+      "Title": "Breaking Bad",
+      "ImageUrl": "../../Images/BreakingBad.jpg",
+      "Views": 500000,
+      "Description": "When chemistry teacher Walter White is diagnosed with Stage III cancer and given only two years to live, he decides he has nothing to lose. He lives with his teenage son, who has cerebral palsy, and his wife, in New Mexico. Determined to ensure that his family will have a secure future, Walt embarks on a career of drugs and crime. He proves to be remarkably proficient in this new world as he begins manufacturing and selling methamphetamine with one of his former students. The series tracks the impacts of a fatal diagnosis on a regular, hard working man, and explores how a fatal diagnosis affects his morality and transforms him into a major player of the drug trade."
+    },
+
+    {
+      "Id": 5,
+      "Seasson": 2,
+      "Title": "Breaking Bad",
+      "ImageUrl": "../../Images/BreakingBad.jpg",
+      "Views": 450000,
+      "Description": "In Seasson 2 Walter White is diagnosed with Stage III cancer and given only two years to live, he decides he has nothing to lose. He lives with his teenage son, who has cerebral palsy, and his wife, in New Mexico. Determined to ensure that his family will have a secure future, Walt embarks on a career of drugs and crime. He proves to be remarkably proficient in this new world as he begins manufacturing and selling methamphetamine with one of his former students. The series tracks the impacts of a fatal diagnosis on a regular, hard working man, and explores how a fatal diagnosis affects his morality and transforms him into a major player of the drug trade."
+    },
+
+    {
+      "Id": 6,
+      "Seasson": 1,
+      "Title": "Friends",
+      "ImageUrl": "../../Images/Friends.jpg",
+      "Views": 2000000,
+      "Description": "Rachel Green, Ross Geller, Monica Geller, Joey Tribbiani, Chandler Bing and Phoebe Buffay are six 20 something year-olds, living off of one another in the heart of New York City. Over the course of ten years, this average group of buddies goes through massive mayhem, family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend."
+    },
+
+    {
+      "Id": 7,
+      "Seasson": 2,
+      "Title": "Friends",
+      "ImageUrl": "../../Images/Friends.jpg",
+      "Views": 2500000,
+      "Description": "Ross Geller, Rachel Green, Monica Geller, Joey Tribbiani, Chandler Bing, and Phoebe Buffay are six 20 something year olds living in New York City. Over the course of 10 years, these friends go through family, love, drama, friendship, and comedy."
+    },
+
+    {
+      "Id": 8,
+      "Seasson": 3,
+      "Title": "Friends",
+      "ImageUrl": "../../Images/Friends.jpg",
+      "Views": 3000000,
+      "Description": "The misadventures of 20-30 year old friends in New York City: Joey a struggling actor, Monica a chef, Rachel a waitress who hopes to work in fashion, Ross a paleontologist, Chandler who hates his job in data processing, and Phoebe a masseuse or musician."
+    }
+  ]
+}

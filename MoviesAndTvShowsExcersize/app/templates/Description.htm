@@ -1,0 +1,29 @@
+﻿<div ng-controller="descriptionController" ng-init="init()">
+    <div class="descriptionContainer">
+        
+        <div class="header">
+            <div>
+                <p>{{data.Title}} Description</p>
+            </div>
+        </div>
+
+        <div class="body">
+
+            <div class="imgSection">
+                <img ng-src={{data.ImageUrl}} />
+            </div>
+            <div>
+                <p>{{data.Title}}</p>
+                <p ng-show="data.Seasson > 0"><b>Seasson: </b>{{data.Seasson}}</p>
+                <p><b>Views: </b>{{data.Views}}</p>
+
+                <p><b>details </b> {{data.Description}}</p>
+            </div>
+
+        </div>
+
+        <div class="descFooter">
+            <a href="#!List"><p>Back</p></a>
+        </div>
+    </div>
+</div>

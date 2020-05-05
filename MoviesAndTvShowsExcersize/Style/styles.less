@@ -1,0 +1,232 @@
+﻿/*Variables*/
+@body-back-color: #0ff;
+@body-font-family: "Trebuchet MS, Verdana, Helvetica, Sans-Serif";
+
+@search-header-back-color: #dc7ad5;
+@list-body-back-color: #f6f248;
+@font-color: #000000;
+
+/*Class*/
+.rounded-corners (@radius: 5px) {
+    border-radius: @radius;
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+}
+
+.padding(@paddingX, @paddingY) {
+    padding: @paddingX @paddingY;
+}
+
+.padding-left(@padding-left) {
+    padding-left: @padding-left;
+}
+
+.height(@height) {
+    height: @height;
+}
+
+.width(@width) {
+    width: @width;
+}
+
+.margin(@marginX, @marginY) {
+    margin: @marginX @marginY;
+}
+
+.color(@color) {
+    color: @color;
+}
+
+.background-color(@background-color) {
+    background-color: @background-color;
+}
+
+.font-family(@font-family) {
+    font-family: @font-family;
+}
+
+.font-size(@font-size) {
+    font-size: @font-size;
+}
+
+.text-align(@text-align) {
+    text-align: @text-align;
+}
+
+.float(@float) {
+    float: @float;
+}
+
+/*Media*/
+@media only screen and (max-width: 320px) {
+
+    .listItem {
+        .padding(0.5%, 0.5%);
+        .height(450px);
+    }
+
+    .listHeader {
+        .height(750px);
+    }
+
+    .listSearch {
+        .height(350px);
+    }
+
+    .listOrderby {
+        .height(350px);
+    }
+}
+
+@media only screen and (min-width : 321px) and (max-width : 480px) {
+
+    .listItem {
+        .padding(0.5%, 0.5%);
+        .height(400px);
+    }
+
+    .listHeader {
+        .height(650px);
+    }
+
+    .listSearch {
+        .height(310px);
+    }
+
+    .listOrderby {
+        .height(310px);
+    }
+}
+
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+
+    .listItem {
+        .padding(0.5%, 0.5%);
+        .height(350px);
+    }
+
+    .listHeader {
+        .height(550px);
+    }
+
+    .listSearch {
+        .height(250px);
+    }
+
+    .listOrderby {
+        .height(250px);
+    }
+}
+
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+    .listItem {
+        .padding(0.5%, 0.5%);
+        .height(300px);
+    }
+
+    .listHeader {
+        .height(450px);
+    }
+
+    .listSearch {
+        .height(210px);
+    }
+
+    .listOrderby {
+        .height(210px);
+    }
+}
+
+@media only screen and (min-width : 1024px) {
+    /**all other CSS rules here**/
+    section {
+        .width(50%);
+        .padding(0, 10px);
+        .margin(0,auto);
+    }
+
+    .listItem {
+        .padding(0.5%, 0.5%);
+        .height(250px);
+    }
+
+    .listHeader {
+        .height(295px);
+    }
+
+    .listSearch {
+        .height(110px);
+    }
+
+    .listOrderby {
+        .height(110px);
+    }
+}
+
+/*page classes*/
+body {
+    .background-color(@body-back-color);
+    .font-family(@body-font-family);
+    .color(@font-color);
+    .margin(0, auto);
+    .padding(2.5%, 2.5%);
+}
+
+.header {
+    .rounded-corners();
+    .background-color(@search-header-back-color);
+    .padding(2.5%, 2.5%);
+    .margin(2.5%, 0%);
+
+    div {
+        p {
+            .text-align(center);
+        }
+    }
+}
+
+.body {
+    .rounded-corners();
+    .background-color(@list-body-back-color);
+    .padding(2.5%, 2.5%);
+}
+
+img {
+    .rounded-corners();
+    .height(100%);
+    .width(100%);
+}
+
+input {
+    .height(45%);
+    .width(100%);
+    .font-size(xx-large);
+}
+
+select {
+    .height(45%);
+    .width(100%);
+    .font-size(xx-large);
+}
+
+p {
+    .font-size(1.98em);
+}
+
+/*list page*/
+.listItemImg {
+    .width(25%);
+    .height(100%);
+    .float(left);
+}
+
+.listItemDesc {
+    .width(75%);
+    .height(100%);
+    .float(left);
+
+    p {
+        .padding-left(2.5%);
+        .color(@font-color);
+    }
+}

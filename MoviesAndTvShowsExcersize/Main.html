@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <title>Movies And Tv Shows Index</title>
+
+    <link rel="stylesheet/less" type="text/css" href="Style/styles.less" />
+    <script src="Scripts/less.js" data-env="development"></script>
+
+    <script src="Scripts/jquery-3.5.0.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/services/storageService.js"></script>
+    <script src="app/services/repositoryService.js"></script>
+    <script src="app/controllers/mainViewController.js"></script>
+    <script src="app/controllers/listController.js"></script>
+    <script src="app/controllers/descriptionController.js"></script>
+
+</head>
+<body ng-app="myApp" ng-controller="mainViewController">
+
+    <section>
+
+        <ng-view></ng-view>
+
+    </section>
+
+</body>
+</html>

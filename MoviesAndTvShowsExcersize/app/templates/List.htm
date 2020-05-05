@@ -1,0 +1,55 @@
+﻿<div class="listContainer" ng-controller="listController" ng-init="init()">
+
+    <div class="header">
+
+        <div class="listSearch">
+            <p>Search Series:</p>
+            <input type="text" placeholder="search..." ng-model="title" />
+        </div>
+
+        <div class="listOrderby">
+            <p>Order By:</p>
+            <select ng-change="sortArray()" ng-model="sortBy">
+
+                <option value="-1" selected="selected">--None--</option>
+                <option value="Title">Name</option>
+                <option value="Views">Views</option>
+                <option value="Seasson">Seassons</option>
+
+            </select>
+        </div>
+
+    </div>
+
+    <div class="body">
+
+        <div ng-show="!noData && !isError">
+
+            <div class="listItem" ng-repeat="item in dataList | filter: {Title: title}">
+                <a href="#!Description" ng-click="setItem(item.Id)">
+                    <div class="listItemImg"><img ng-src={{item.ImageUrl}} /></div>
+                    <div class="listItemDesc">
+                        <p class="itemTitle">{{item.Title}}</p>
+                        <p><b>Views: </b>{{item.Views}}</p>
+                        <p ng-if="item.Seasson > 0"><b>Seassion: </b>{{item.Seasson}}</p>
+
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div ng-show="noData">
+
+            <p>No Results Found!</p>
+
+        </div>
+        <div ng-show="isError">
+
+            <p>{{ErrMsg}}</p>
+
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+</div>
